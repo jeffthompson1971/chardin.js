@@ -1,9 +1,24 @@
 {
-    "name": "heelhook/chardin.js",
-    "main": ["chardinjs.js", "chardinjs.scss"],
-    "ignore": [],
-    "description": "Simple overlay instructions for your apps.",
-    "license": "Apache",
+  "name": "jeffthompson1971/chardin.js",
+  "version": "0.1.4",
+  "homepage": "https://github.com/jeffthompson1971/chardin.js",
+  "authors": [
+    "Jeff Thompson <@jordanburke>"
+  ],
+  "main": ["chardinjs.js", "chardinjs.scss"],
+  "description": "help overlay library",
+   "scripts": {
+    "postinstall": "npm install"
+  },
+  "keywords": [
+  ],
+  "license": "Apache",
+  
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
     "dependencies": {
         "jquery": ">=1.6.0"
     }
